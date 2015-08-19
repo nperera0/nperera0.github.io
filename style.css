@@ -1,0 +1,143 @@
+html,body{
+	height:100%;
+	margin:0;
+	background: #d8d8d8
+}
+body{
+	color:#58595b;
+	font-family: "europa";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
+	line-height: 1.5;
+	position: relative;
+	cursor: auto;
+	letter-spacing: 0.05rem;
+	-webkit-font-smoothing: subpixel-antialiased
+}
+
+#top{
+	background:url('http://erkan.ca/wp-content/uploads/2013/01/photodune-201359-toronto-skyline-m.jpg');
+	background-attachment: fixed;
+	background-position:  bottom;
+	background-size:cover;
+	height:60%;
+	width:100%;
+}
+h1{
+	color:#4fbfa6;
+	font-size:18pt;
+	font-weight:400;
+	margin:0px;
+
+}
+h2{
+	font-size:12pt;
+	font-weight: 200;
+	margin:0px;
+
+}
+a{
+	color:#58595b;
+	text-decoration: none;
+}
+a:hover{
+	color:#4fbfa6;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.profile{
+	width:50em;
+	background: white;
+	margin:0 auto;
+	position: relative;
+	padding:0px 120px;
+}
+.avatar-container{
+	width:25em;
+	text-align:center;
+	position: absolute;
+	left:50%;
+	right:50%;
+	top:-6em;
+	margin-left:-12.5em;
+}
+
+.avatar-container img.avatar{
+	width:12em;
+	height:12em;
+	border-radius:100%;
+	margin-bottom:10px;
+}
+
+.resume-left, .resume-right{
+	float:left;
+	width:50%;
+	margin-top:200px;
+}
+
+.module{
+	margin-bottom:30px;
+}
+.module .title,.module .sub-title, .module2 .title {
+	color:#4fbfa6;
+	font-size:14pt;
+	font-weight:400;
+}
+.module .sub-title{
+	font-size:10pt;
+}
+.module p{
+	font-weight:100;
+	font-size:10pt;
+	line-height:12pt;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.1rem;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: subpixel-antialiased
+}
+.module2{
+	border-top:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	padding:20px 0px;
+	width:80%;
+}
+
+
+.module2 .facebook{
+	background: url('/img/facebook.png');
+}
+.module2 .twitter{
+	background: url('/img/twitter.png');
+}
+.module2 .instagram{
+	background: url('/img/instagram.png');
+}
+.module2 .social{
+	display: inline-block;
+	vertical-align: top;
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #4fbfa6;
+	border-radius: 100%;
+	height: 2.5em;
+	width: 2.5em;
+	border: none;
+	margin-right: 5px;
+}
+.module-right{
+	border-left:2px solid #4fbfa6;
+	padding-left:40px;
+}
