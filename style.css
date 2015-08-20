@@ -17,11 +17,11 @@ body{
 }
 
 #top{
-	background:url('http://erkan.ca/wp-content/uploads/2013/01/photodune-201359-toronto-skyline-m.jpg');
+	background:url('img/beach1.jpg');
 	background-attachment: fixed;
 	background-position:  bottom;
-	background-size:cover;
-	height:60%;
+	background-size:initial;
+	height:43%;
 	width:100%;
 }
 h1{
@@ -116,18 +116,18 @@ a:hover{
 
 
 .module2 .facebook{
-	background: url('/img/facebook.png');
+	background: url('img/facebook.png');
 }
 .module2 .twitter{
-	background: url('/img/twitter.png');
+	background: url('img/twitter.png');
 }
 .module2 .instagram{
-	background: url('/img/instagram.png');
+	background: url('img/instagram.png');
 }
 .module2 .social{
 	display: inline-block;
 	vertical-align: top;
-	background-size: 50%;
+	background-size: 90%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #4fbfa6;
