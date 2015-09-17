@@ -17,10 +17,11 @@ body{
 }
 
 #top{
-	background:url('img/beach.jpg');
+	background:url('img/toronto.jpg');
 	background-attachment: fixed;
 	background-position:  bottom;
-	background-size:initial;
+
+	background-repeat: no-repeat;
 	height:43%;
 	width:100%;
 }
@@ -32,7 +33,7 @@ h1{
 
 }
 h2{
-	font-size:12pt;
+	font-size:14pt;
 	font-weight: 200;
 	margin:0px;
 
@@ -96,7 +97,7 @@ a:hover{
 	font-weight:400;
 }
 .module .sub-title{
-	font-size:10pt;
+	font-size:11pt;
 }
 .module p{
 	font-weight:100;
