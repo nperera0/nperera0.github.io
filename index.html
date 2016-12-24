@@ -1,80 +1,372 @@
-<section id="top" class="top">
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-</section>
+<!DOCTYPE html>
+<html lang="en">
 
-<section class="profile clearfix">
+    <head>
 
-	<div class="avatar-container">
-		<img class="avatar" src="img/me.jpg">
-		<div class="avatar-text">
-			<h1>Nisal Perera</h1>
-			<h2>Stuff | I | Do </h2>
-		</div>
-	</div>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-<article class="resume-left">
+        <title>Resume - Nisal Perera</title>
 
-	<div class="module">
-		<span class="title">Contact Information</span>
-		<p>
-			647.466.3162 <br>
-			nisalperera0@gmail.com <br>
-			http://nperera0.github.io <br>
-		</p>
-	</div>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	<div class="module">
-		<span class="title">Address</span>
-		<p>
-			134 Combermere Drive<br>
-			Toronto, Ontario<br>
-			Canada
-		</p>
-	</div>
-<div class="module2">
-	<div class="title">Social</div>
+        <!-- Custom CSS -->
+        <link href="css/resumee.css" rel="stylesheet">
+        <link href="css/circle.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
 
-	<a href="https://www.facebook.com/nisal.perera.1" target="_blank">
-		<div class="facebook social"></div>
-	</a>
-	<a href="https://twitter.com/nisalperera0" target="_blank">
-		<div class="twitter social"></div>
-	</a>
-	<a href="https://instagram.com/" target="_blank">
-		<div class="instagram social"></div>
-	</a>
-</div>
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-</article>
+        <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-<article class="resume-right">
-	<div class="module module-right">
-		<span class="title">Education</span> <br>
-		<span class="sub-title">MSc in Applied Computing <br>
-		University of Toronto</span>
-		<p> Specilized in Machine Learning and Computer Vision
-		</p>
-		<span class="sub-title">Electrical and Computer Engineering (Honours)
-		University of Toronto</span>
-		<p> Specilized in Software Engineering and Computer Networking
-		</p>
-		<span class="title">Technical Skills</span> <br>
-		<p>
-		C/C++, Java, SQL, HTML, Python, Ruby on Rails, Git
-    Android, libGDX, Swift, Xcode
-		</p>
-		<span class="title">Work Experience</span> <br>
-		<span class="sub-title">Software Engineer</span>
-		<p>
-Advanced Micro Devices Inc.
-<br> Display Driver Team, Markham</br>
-		</p>
-		<span class="sub-title">Workshop Assistant </span>
-		<p>
-			Quantec Geoscience
-			<br>Research and Development Department, Toronto </br>
-		</p>
-	</div>
-</article>
 
-</section>
+    </head>
+
+    <body id="page-top" class="index">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top center">
+            <div class="container" >
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#page-top">Nisal Perera</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav ">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about"><i class="fa fa-user"></i>About</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#experience"><i class="fa fa-briefcase"></i>Work Experience</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio"><i class="fa fa-list-alt"></i>Projects</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#skills"><i class="fa fa-tasks"></i>Skills</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#education"><i class="fa fa-book"></i>Education</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact"><i class="fa fa-envelope"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <section class="container" id="about" >
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="img-responsive circular"   src="img/picture.jpg" alt="">
+                        <div class="intro-text">
+                            <span class="skills">Nisal Perera</span>
+                        </div>
+                        <a href="#" class="btn btn-success"><i class="fa fa-download"></i>   Download CV</a>
+                    </div>
+                    <div class="col-lg-8">
+                      <div>
+                          <span>Currently,
+                            I am pursuing a Master of Science degree in Applied Computing at University of Toronto, Department of Computer Science. My fields of interest are Machinle Learning, Computer Vision, Natural Language Processing and Human Computer Interactions.
+                            I completed my undergrad in Computer Engineering (Honours) at University of Toronto, Faculty of Applied Science and Engineering.
+                          </span>
+                      </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <!-- Portfolio Grid Section -->
+        <section id="experience" >
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3>Work Experience</h3>
+                        <hr class="points"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="cd-timeline"  class="cd-container grey">
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-img">
+                                <i class="fa fa-list-alt icon"></i>
+                            </div> <!-- cd-timeline-img -->
+
+                            <div class="cd-timeline-content">
+                                <h2>Mobile Lab Assistant</h2>
+                                <span>MADLab, University of Toronto</span>
+                                <p>Participated in collaborative design and development of mobile and web apps.Designed and conducted workshops on mobile app development.</p>
+                                <span class="cd-date">Oct 2016-Present</span>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-img">
+                                <i class="fa fa-list-alt icon"></i>
+                            </div> <!-- cd-timeline-img -->
+                            <div class="cd-timeline-content">
+                                <h2>Teaching Assistant</h2>
+                                <span>Department of Computer Science</span>
+                                <p>Conducted weekly lab sessions and graded student assignments/midterms.</p>
+                                <span class="cd-date">Sep 2016-Present</span>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-img">
+                                <i class="fa fa-list-alt icon"></i>
+                            </div> <!-- cd-timeline-img -->
+                            <div class="cd-timeline-content">
+                                <h2>Software Engineer</h2>
+                                <span>Advanced Micro Devices Inc.</span>
+                                <p>Implemented new features in C++ for Virtual Reality, Wireless and 4K display products. Worked closely with customers to triage and resolve Windows and Linux driver issues. Practiced daily SCRUM meetings and presented in weekly code review meetings.</p>
+                                <span class="cd-date">Jan-Jul 2015</span>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+                    </div>
+                </div>
+            </div>
+        </section> <!-- cd-timeline -->
+
+
+        <section id="portfolio" class="grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3> Projects</h3>
+                        <hr class="points"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+                        <div class="panel panel-standard">
+                            <div class="panel-heading">
+                                <i class="fa fa-briefcase icon"></i>Project 1
+                            </div>
+                            <img src="img/game.png" class="img-responsive" alt="">
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            <div class="panel-footer">
+                                About..
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+                        <div class="panel panel-standard">
+                            <div class="panel-heading">
+                                <i class="fa fa-briefcase icon"></i>Project 1
+                            </div>
+                            <img src="img/game.png" class="img-responsive" alt="">
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            <div class="panel-footer">
+                                About..
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+                        <div class="panel panel-standard">
+                            <div class="panel-heading">
+                                <i class="fa fa-briefcase icon"></i>Project 1
+                            </div>
+                            <img src="img/game.png" class="img-responsive" alt="">
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            <div class="panel-footer">
+                                About..
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Skill Section-->
+        <section class="grey" id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3> Skills</h3>
+                        <hr class="points"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--                    <div class="col-lg-2">
+                                            <div class="c100 p75">
+                                                <span>75%</span>
+                                                <div class="slice">
+                                                    <div class="bar"></div>
+                                                    <div class="fill"></div>
+                                                </div>
+                                            </div>
+                                            <div class="c100 p75">
+                                                <span>75%</span>
+                                                <div class="slice">
+                                                    <div class="bar"></div>
+                                                    <div class="fill"></div>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                    <div class="col-lg-10">
+                        <progress value="80" max="100"></progress><span class="skill">JavaScript/jQuery</span>
+                        <progress value="70" max="100"></progress><span class="skill">HTML5/CSS3</span>
+                        <progress value="60" max="100"></progress><span class="skill">NodeJS</span>
+                        <progress value="70" max="100"></progress><span class="skill">Java/PHP</span>
+                        <progress value="60" max="100"></progress><span class="skill">MySQL</span>
+                        <progress value="80" max="100"></progress><span class="skill">Photoshop</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Education Section-->
+        <section class="grey" id="education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3> Education</h3>
+                        <hr class="points"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <div class="panel panel-standard">
+                            <div class="panel-heading">
+                            </div>
+                            <div class="panel-body">
+                                <h2><i class="fa fa-graduation-cap"></i>MSc in Applied Computing, University of Toronto</h2>
+                                <h6>September 2016-Present</h6>
+                            </div>
+                            <div class="panel-footer">
+                              Coursework (Ongoing): Introduction to Machine Learning, Foundations of Computer Vision, Human Computer Interactions, Natural Language Computing
+                            </div>
+                        </div>
+                        <div class="panel panel-standard">
+                            <div class="panel-heading">
+                            </div>
+                            <div class="panel-body">
+                                <h2><i class="fa fa-graduation-cap"></i>Computer Engineering (Honours), University of Toronto</h2>
+                                <h6>2011-2016</h6>
+                            </div>
+                            <div class="panel-footer">
+                                Coursework: Algorithms and Data Structures, Operating Systems, Computer Security, Computer Organization, Computer Networks,
+                                Introduction to Databases, Web Programming
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3> Contact</h3>
+                        <hr class="points"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div class="panel panel-standard text-center">
+                            <div class="panel-heading">
+                                <i class="fa fa-map-marker "> Location</i>
+                            </div>
+                            <div class="panel-body">
+                                <p>1 Street<br>City, Code 1234</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6  text-center">
+                        <div class="panel panel-standard">
+                            <div class="panel-heading">
+                                <i class="fa fa-chain "> Social</i>
+                            </div>
+                            <div class="panel-body ">
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/nisal.perera.1" class="btn-social btn-default"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="mailto:nisalperera0@gmail.com" class="btn-social btn-default"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="https://twitter.com/nisalperera0" class="btn-social btn-default"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://ca.linkedin.com/in/nisal-perera-21183575" class="btn-social btn-default"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; Nisal Perera 2016
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button -->
+        <div class="scroll-top page-scroll">
+            <a class="btn btn-default" href="#page-top">
+                <i style="margin-left: -3px;margin-top: 6px;" class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/resume.js"></script>
+        <script src="js/main.js"></script> <!-- Resource jQuery -->
+        <script>
+            $(function () {
+                $('progress').each(function () {
+                    var max = $(this).val();
+                    $(this).val(0).animate({value: max}, {duration: 2000, easing: 'easeOutCirc'});
+                });
+            });
+        </script>
+    </body>
+
+</html>
