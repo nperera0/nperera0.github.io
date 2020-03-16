@@ -1,373 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Minimal by Steve Smith</title>
 
-    <head>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Nisal Perera</h2>
+        <p>Data | Machine Learning | Backend</p>
+        <img src="me.jpg">
+        <p><a href="NisalPerera-Resume.pdf" class="btn btn-success"><i class="fa fa-download"></i>Download CV</a></p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/nisal-perera/" title="LinkedIn">LinkedIn</a>.</p>
+      </header>
+      <section>
+        <h3>About Me</h3>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <p>I’m well versed in big data processing tools such as Spark and Apache Beam and large scale data warehousing solutions such as Google BigQuery, AWS Redshift and ElasticSearch.</p>
+        <p>I am experienced in building and deploying big data solutions on AWS cloud services (EC2, EMR, S3, Lambda) and Google Cloud Platform (Dataflow, Dataproc, Cloud Storage).</p>
 
-        <title>Nisal Perera</title>
-
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom CSS -->
-        <link href="css/resumee.css" rel="stylesheet">
-        <link href="css/circle.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-
-        <!-- Custom Fonts -->
-        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-        <script src="js/modernizr.js"></script> <!-- Modernizr -->
-
-
-    </head>
-
-    <body id="page-top" class="index">
-
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top center">
-            <div class="container" >
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#page-top">Nisal Perera</a>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav ">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#about"><i class="fa fa-user"></i>About</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#experience"><i class="fa fa-briefcase"></i>Work</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#portfolio"><i class="fa fa-list-alt"></i>Projects</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#skills"><i class="fa fa-tasks"></i>Skills</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#education"><i class="fa fa-book"></i>Education</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#contact"><i class="fa fa-envelope"></i>Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-
-        <!-- Header -->
-        <header>
-            <section class="container" id="about" >
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img class="img-responsive circular"   src="img/picture.jpg" alt="">
-                        <div class="intro-text">
-                            <span class="skills">Nisal Perera</span>
-                        </div>
-                        <a href="img/NisalPereraCV.pdf" class="btn btn-success"><i class="fa fa-download"></i>   Download CV</a>
-                    </div>
-                    <div class="col-lg-8">
-                      <div>
-                          <span>
-														<h4>
-                            I am pursuing a Master of Science degree in Applied Computing at University of Toronto, Department of Computer Science. My fields of interest are Machinle Learning, Computer Vision, Natural Language Processing and Human Computer Interactions.
-                            I completed my undergrad in Computer Engineering (Honours) at University of Toronto, Faculty of Applied Science and Engineering.
-														<br/> <br/>Currently, I am looking for research internship positions starting in May, 2017.
-													</h4>
-													</span>
-                      </div>
-                    </div>
-                </div>
-            </section>
-        </header>
-
-        <!-- Portfolio Grid Section -->
-        <section id="experience" >
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3>Work</h3>
-                        <hr class="points"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="cd-timeline"  class="cd-container grey">
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-img">
-                                <i class="fa fa-list-alt icon"></i>
-                            </div> <!-- cd-timeline-img -->
-
-                            <div class="cd-timeline-content">
-                                <h2>Mobile Lab Assistant</h2>
-                                <span>MADLab, University of Toronto</span>
-                                <p>Participated in collaborative design and development of mobile and web apps. Designed and conducted workshops on mobile app development.</p>
-                                <span class="cd-date">Oct 2016-Present</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-img">
-                                <i class="fa fa-list-alt icon"></i>
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content">
-                                <h2>Teaching Assistant</h2>
-                                <span>Department of Computer Science</span>
-                                <p>Conducted weekly lab sessions and graded student assignments/midterms.</p>
-                                <span class="cd-date">Sep 2016-Present</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-img">
-                                <i class="fa fa-list-alt icon"></i>
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content">
-                                <h2>Software Engineer</h2>
-                                <span>Advanced Micro Devices Inc.</span>
-                                <p>Implemented new features in C++ for Virtual Reality, Wireless and 4K display products. Worked closely with customers to triage and resolve Windows and Linux driver issues. Practiced daily SCRUM meetings and presented in weekly code review meetings.</p>
-                                <span class="cd-date">May 2014-Aug 2015</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
-                    </div>
-                </div>
-            </div>
-        </section> <!-- cd-timeline -->
-
-
-        <section id="portfolio" class="grey">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3> Projects</h3>
-                        <hr class="points"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
-                        <div class="panel panel-standard">
-                            <div class="panel-heading">
-                                <i class="fa fa-briefcase icon"></i>Digits Classification
-                            </div>
-                            <img src="img/digits.png" class="img-responsive" alt="">
-                            <div class="panel-body">
-                                <p>Implemented k-Nearest Neighbors and Regularized Logistic Regression algorithms to classify Hand-Written Digits. Achieved 96% accuracy on test set trough logistic regression and 98% accuracy by the kNN approach</p>
-                            </div>
-                            <div class="panel-footer">
-                                Machine Learning, 2016
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
-                        <div class="panel panel-standard">
-                            <div class="panel-heading">
-                                <i class="fa fa-briefcase icon"></i>Image Scene Prediction
-                            </div>
-                            <img src="img/inception.jpg" class="img-responsive" alt="">
-                            <div class="panel-body">
-                                <p>Implemented a Transfer Learning algorithm using a pre-trained Deep Convolutional Neural Network to classify 10,000 Flickr images into 8 classes. Achieved 80.6% accuracy on 2000 private test set of images.</p>
-                            </div>
-                            <div class="panel-footer">
-                                Machine Learning, 2016
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
-                        <div class="panel panel-standard">
-                            <div class="panel-heading">
-                                <i class="fa fa-briefcase icon"></i>Automated Cell Counter
-                            </div>
-                            <img src="img/cell.png" class="img-responsive" alt="">
-                            <div class="panel-body">
-                                <p>Implemented an algorithm to identify cells in a microscope image using robust estimation to extract simple image models from noisy image measurements.</p>
-                            </div>
-                            <div class="panel-footer">
-                                Computer Vision, 2016
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Skill Section-->
-        <section class="grey" id="skills">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3> Skills</h3>
-                        <hr class="points"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <!--                    <div class="col-lg-2">
-                                            <div class="c100 p75">
-                                                <span>75%</span>
-                                                <div class="slice">
-                                                    <div class="bar"></div>
-                                                    <div class="fill"></div>
-                                                </div>
-                                            </div>
-                                            <div class="c100 p75">
-                                                <span>75%</span>
-                                                <div class="slice">
-                                                    <div class="bar"></div>
-                                                    <div class="fill"></div>
-                                                </div>
-                                            </div>
-                                        </div>-->
-                    <div class="col-lg-12">
-                        <progress value="99.9" max="100"></progress><span class="skill">Programming Languages : C/C++, Java, Python, MATLAB, SQL, Node.js and Swift</span>
-                        <progress value="99.9" max="100"></progress><span class="skill">Development Environments : Eclipse, MS Visual Studio, PyCharm, Xcode</span>
-                        <progress value="99.9" max="100"></progress><span class="skill">Software Versioning Tools : Git, Perforce and SVN</span>
-                        <progress value="99.9" max="100"></progress><span class="skill">Other Tools and Software : Android SDK, Scikit-learn, libGDX Game Engine</span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!--Education Section-->
-        <section class="grey" id="education">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3> Education</h3>
-                        <hr class="points"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 ">
-                        <div class="panel panel-standard">
-                            <div class="panel-heading">
-                            </div>
-                            <div class="panel-body">
-                                <h2><i class="fa fa-graduation-cap"></i>MSc in Applied Computing, University of Toronto</h2>
-                                <h6>September 2016-Present</h6>
-                            </div>
-                            <div class="panel-footer">
-                              Coursework (Ongoing): Introduction to Machine Learning, Foundations of Computer Vision, Human Computer Interactions, Natural Language Computing
-                            </div>
-                        </div>
-                        <div class="panel panel-standard">
-                            <div class="panel-heading">
-                            </div>
-                            <div class="panel-body">
-                                <h2><i class="fa fa-graduation-cap"></i>Computer Engineering (Honours), University of Toronto</h2>
-                                <h6>2011-2016</h6>
-                            </div>
-                            <div class="panel-footer">
-                                Coursework: Algorithms and Data Structures, Operating Systems, Computer Security, Computer Organization, Computer Networks,
-                                Introduction to Databases, Web Programming
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3> Contact</h3>
-                        <hr class="points"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <div class="panel panel-standard text-center">
-                            <div class="panel-heading">
-                                <i class="fa fa-envelope "> E-Mail</i>
-                            </div>
-                            <div class="panel-body">
-                                <p> nperera at cs dot toronto dot edu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6  text-center">
-                        <div class="panel panel-standard">
-                            <div class="panel-heading">
-                                <i class="fa fa-chain "> Social</i>
-                            </div>
-                            <div class="panel-body ">
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/nisal.perera.1" class="btn-social btn-default"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="mailto:nisalperera0@gmail.com" class="btn-social btn-default"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="https://twitter.com/nisalperera0" class="btn-social btn-default"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://ca.linkedin.com/in/nisal-perera-21183575" class="btn-social btn-default"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="text-center">
-            <div class="footer-below">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            Copyright &copy; Nisal Perera 2016
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Scroll to Top Button -->
-        <div class="scroll-top page-scroll">
-            <a class="btn btn-default" href="#page-top">
-                <i style="margin-left: -3px;margin-top: 6px;" class="fa fa-chevron-up"></i>
-            </a>
-        </div>
-
-
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <!-- Plugin JavaScript -->
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
-
-        <!-- Contact Form JavaScript -->
-        <script src="js/jqBootstrapValidation.js"></script>
-        <script src="js/contact_me.js"></script>
-
-        <!-- Custom Theme JavaScript -->
-        <script src="js/resume.js"></script>
-        <script src="js/main.js"></script> <!-- Resource jQuery -->
-        <script>
-            $(function () {
-                $('progress').each(function () {
-                    var max = $(this).val();
-                    $(this).val(0).animate({value: max}, {duration: 2000, easing: 'easeOutCirc'});
-                });
-            });
-        </script>
-    </body>
-
+        <p><strong>PROFESSIONAL EXPERIENCE</strong></p>
+        <h4><strong>Data Engineer </strong> <span style="float:right;"> Jan 2018 - Present </span> <br/> The Weather Network, Oakville</h4>
+        <ul>
+        <li>Developed ETL pipelines in Google Dataflow to process millions of GPS breadcrumbs daily.</li>
+        <li>Implemented a web behavioral segmentation algorithm on Google Bigquery for ad targeting.</li>
+        <li>Migrated on-premises Spark jobs to Google Dataproc improving scalability, costs and runtime.</li>
+        <li>Designed and implemented serverless micro-service architecture APIs on AWS Lambda.</li>
+        <li>Optimized Elasticsearch and Redshift SQL queries to meet real-time performance requirements.</li>
+        <li>Maintained an Apache Airflow server for coordinating and scheduling ETL pipeline jobs.</li>
+        <li>Led the release of new products coordinating all the business stakeholders and developers.</li>
+        </ul>
+        <h4><strong>Data Science Engineer </strong><span style="float:right;">May 2017 - Dec 2017</span><br/> Rubikloud Technologies Inc., Toronto</h4>
+        <ul>
+        <li>Worked with data scientists to build a personalized product recommendations model.</li>
+        <li>Developed automated machine learning and data processing pipelines in pySpark.</li>
+        <li>Productized machine learning models into robust production-grade systems using Luigi.</li>
+        <li>Deployed machine learning solutions on AWS cloud services using Docker containerization.</li>
+        <li>Built an automated testing platform for verifying the quality of model predictions.</li>
+        </ul>
+        <h4><strong>Graduate Teaching Assistant </strong><span style="float:right;">Sep 2016 - Apr 2017</span><br/>Department of Computer Science, University of Toronto</h4>
+        <ul>
+        <li>Conducted weekly programming lab sessions and graded student assignments/exams.</li>
+        </ul>
+        <h4><strong>Software Engineer </strong><span style="float:right;">May 2014 - Aug 2015 </span><br/> Advanced Micro Devices Inc., Markham</h4>
+        <ul>
+        <li>Implemented kernel driver features in C++ for VR, Wireless and 4K display</li>
+        <li>Worked closely with QA team to triage and resolve Windows and Linux drivers</li>
+        <li>Practiced agile development process and presented in weekly code review</li>
+        </ul>
+        <p><strong>EDUCATION</strong></p>
+        <h4><strong>MSc in Applied Computing  <span style="float:right;">Sep 2016 - Dec 2017 </span></strong><br/>University of Toronto</h4>
+        <ul>
+        <li><strong>Coursework</strong>: Machine Learning, Computer Vision, Natural Language Computing Human-Computer Interactions, Technology Entrepreneurship</li>
+        <li><strong>Awards</strong>: Mitacs Accelerate Fellowship Grant</li>
+        </ul>
+        <h4><strong>BASc Computer Engineering, Honours <span style="float:right;">Sep 2011 - May 2016 </span></strong><br/>University of Toronto</h4>
+        <ul>
+        <li><strong>Coursework: </strong>Algorithms and Data Structures, Operating Systems, Computer Security, Software Optimization, Computer Networks, Introduction to Databases, Web Programming</li>
+        <li><strong>Awards:</strong> Dean&rsquo;s Honours List, University Entrance Scholarship</li>
+        </ul>
+        <p><strong>SKILLS</strong></p>
+        <ul>
+        <li><strong>Programming Languages: </strong>Python, Java, C/C++, SQL, Javascript</li>
+        <li><strong>Big Data: </strong>ElasticSearch, Amazon Redshift, Google BigQuery, DynamoDB</li>
+        <li><strong>Cloud Computing:</strong> Amazon EMR, Google Dataflow, Apache Spark, Docker</li>
+        <li><strong>Machine Learning: </strong>TensorFlow, pySpark, Scikit-learn, Pandas, MLlib</li>
+        </ul>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
 </html>
