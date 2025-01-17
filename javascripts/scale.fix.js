@@ -1,17 +1,20 @@
 var metas = document.getElementsByTagName('meta');
 var i;
+
+// Check for iPhone and modify viewport meta tag accordingly
 if (navigator.userAgent.match(/iPhone/i)) {
-  for (i=0; i<metas.length; i++) {
-    if (metas[i].name == "viewport") {
-      metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+  for (i = 0; i < metas.length; i++) {
+    if (metas[i].name === "viewport") {
+      metas[i].content = "width=device-width, initial-scale=1.0, user-scalable=no";
     }
   }
-  document.addEventListener("gesturestart", gestureStart, false);
-}
-function gestureStart() {
-  for (i=0; i<metas.length; i++) {
-    if (metas[i].name == "viewport") {
-      metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+
+  // Add event listener for pinch-to-zoom gesture
+  document.addEventListener("gesturestart", function() {
+    for (i = 0; i < metas.length; i++) {
+      if (metas[i].name === "viewport") {
+        metas[i].content = "width=device-width, initial-scale=1.0, user-scalable=yes";
+      }
     }
-  }
+  }, false);
 }
