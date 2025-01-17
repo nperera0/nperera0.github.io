@@ -1,117 +1,102 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Nisal Perera</title>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS Styles -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <style>
       body {
-        font-family: 'Roboto', sans-serif;
+        font-family: Arial, sans-serif;
         line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
         margin: 0;
         padding: 0;
-        color: #333;
-        background: #f4f4f9;
       }
-
       .wrapper {
         max-width: 900px;
-        margin: auto;
+        margin: 20px auto;
         padding: 20px;
         background: #fff;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
       }
-
       header {
         text-align: center;
-        padding: 20px;
-        border-bottom: 2px solid #ddd;
+        margin-bottom: 20px;
       }
-
       header h2 {
-        font-size: 2rem;
-        margin-bottom: 10px;
+        margin: 10px 0;
+        font-size: 2.4em;
+        color: #2c3e50;
       }
-
       header p {
         margin: 5px 0;
+        font-size: 1.2em;
+        color: #7f8c8d;
       }
-
       header img {
+        border-radius: 50%;
         width: 120px;
         height: 120px;
-        border-radius: 50%;
         margin: 10px auto;
         display: block;
       }
-
-      .btn {
+      header a.btn {
         display: inline-block;
-        padding: 10px 20px;
-        font-size: 1rem;
+        padding: 10px 15px;
+        background: #2ecc71;
         color: #fff;
-        background: #007bff;
         text-decoration: none;
         border-radius: 5px;
-        transition: background 0.3s;
+        margin-top: 10px;
       }
-
-      .btn:hover {
-        background: #0056b3;
+      header a.btn:hover {
+        background: #27ae60;
       }
-
       section {
-        padding: 20px;
+        margin: 20px 0;
       }
-
       section h3 {
-        font-size: 1.5rem;
-        color: #007bff;
-        margin-bottom: 15px;
-        border-bottom: 2px solid #ddd;
+        font-size: 1.8em;
+        color: #34495e;
+        border-bottom: 2px solid #ecf0f1;
         padding-bottom: 5px;
+        margin-bottom: 15px;
       }
-
       section h4 {
-        font-size: 1.25rem;
-        margin: 15px 0 10px;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      section h4 strong {
-        color: #333;
-      }
-
-      ul {
-        margin: 0;
-        padding-left: 20px;
-      }
-
-      ul li {
+        font-size: 1.4em;
+        color: #2c3e50;
         margin: 10px 0;
       }
-
+      section ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      section ul li {
+        padding: 5px 0;
+        line-height: 1.6;
+      }
       footer {
         text-align: center;
-        padding: 10px;
         margin-top: 20px;
-        background: #f4f4f9;
-        font-size: 0.9rem;
-        color: #666;
+        font-size: 0.9em;
+        color: #95a5a6;
       }
-
       footer a {
-        color: #007bff;
+        color: #3498db;
         text-decoration: none;
       }
-
       footer a:hover {
         text-decoration: underline;
       }
@@ -121,71 +106,66 @@
     <div class="wrapper">
       <header>
         <h2>Nisal Perera</h2>
-        <p>Machine Learning Engineer | Data Science | Scalable Cloud Solutions</p>
+        <p>Data | Machine Learning | Backend</p>
         <img src="me.jpg" alt="Nisal Perera">
-        <p><a href="NisalPerera-Resume.pdf" class="btn"><i class="fa fa-download"></i> Download CV</a></p>
+        <p><a href="NisalPerera-Resume.pdf" class="btn btn-success"><i class="fa fa-download"></i>Download CV</a></p>
         <p>Connect with me on <a href="https://www.linkedin.com/in/nisal-perera/" title="LinkedIn">LinkedIn</a>.</p>
       </header>
-
       <section>
         <h3>About Me</h3>
-        <p>Machine learning engineer specializing in scalable data processing, predictive modeling, and cloud-based solutions. Proficient in end-to-end model deployment and performance optimization.</p>
+
+        <p>I’m well-versed in big data processing tools such as Spark and Apache Beam and large-scale data warehousing solutions like Google BigQuery, AWS Redshift, and ElasticSearch.</p>
+        <p>I am experienced in building and deploying big data solutions on AWS cloud services (EC2, EMR, S3, Lambda) and Google Cloud Platform (Dataflow, Dataproc, Cloud Storage).</p>
 
         <h3>Work Experience</h3>
-
-        <h4><strong>Machine Learning Engineer</strong> <span>Mar 2023 – Present</span></h4>
-        <p>Expedia Group, Seattle (Remote)</p>
+        <h4>Machine Learning Engineer <span style="float:right;">Mar 2023 - Present</span><br/> Expedia Group, Seattle (Remote)</h4>
         <ul>
           <li>Developed and deployed highly scalable services to handle thousands of inferences per second.</li>
           <li>Reduced costs by migrating legacy models into K8-based BentoML model deployment platform.</li>
-          <li>Implemented a Kafka-based model request/response logging service for monitoring.</li>
+          <li>Implemented a Kafka-based model request/response logging service for model monitoring.</li>
           <li>Integrated and optimized a DynamoDB Feature Store for real-time feature look-up at inference.</li>
-          <li>Streamlined live inference services, cutting costs by 40% while maintaining SLAs.</li>
-          <li>Automated model training and CI/CD pipelines using GitHub Actions and Spinnaker.</li>
+          <li>Streamlined live inference services, cutting costs by 40% while preserving the same SLAs.</li>
+          <li>Utilized GitHub Actions and Spinnaker to automate model training and CI/CD pipelines.</li>
         </ul>
 
-        <h4><strong>Sr. Machine Learning Engineer</strong> <span>Jan 2021 – Feb 2023</span></h4>
-        <p>Telus Communications Inc., Toronto</p>
+        <h4>Sr. Machine Learning Engineer <span style="float:right;">Jan 2021 – Feb 2023</span><br/> Telus Communications Inc., Toronto</h4>
         <ul>
-          <li>Built fraud models preventing 20% of in-store device fraud, resulting in $4M annual savings.</li>
-          <li>Debugged and optimized production models using data drift analysis and monitoring tools.</li>
-          <li>Developed propensity models for churn, up-sell, and cross-sell marketing campaigns.</li>
-          <li>Improved team efficiency by migrating ML workflows to Vertex AI and BigQuery on GCP.</li>
-          <li>Collaborated with stakeholders to identify and prototype new AI initiatives.</li>
+          <li>Built a fraud model to prevent 20% of in-store device fraud, resulting in $4M savings annually.</li>
+          <li>Debugged and fixed production models using data drift analysis and model monitoring tools.</li>
+          <li>Developed propensity models for various churn, up-sell, and cross-sell marketing campaigns.</li>
+          <li>Increased team efficiency by migrating ML workflows to Vertex AI and BigQuery on GCP.</li>
+          <li>Collaborated with business stakeholders to identify and prototype new AI initiatives.</li>
         </ul>
 
-        <h4><strong>Data/ML Engineer</strong> <span>Jan 2018 – Dec 2020</span></h4>
-        <p>The Weather Network, Oakville</p>
+        <h4>Data/ML Engineer <span style="float:right;">Jan 2018 – Dec 2020</span><br/> The Weather Network, Oakville</h4>
         <ul>
           <li>Built an end-to-end predictive system to estimate ad click-through rate (CTR) using XGBoost.</li>
           <li>Implemented a behavioral segmentation algorithm in PySpark ML for personalized ad targeting.</li>
-          <li>Developed ETL pipelines in Google Dataflow to process sparse geospatial data.</li>
-          <li>Modeled data in Elasticsearch and Redshift for real-time querying.</li>
-          <li>Developed Python Flask back-end microservices using AWS Lambda/API Gateway/Zappa.</li>
-          <li>Maintained Apache Airflow server for coordinating and scheduling ETL jobs.</li>
+          <li>Developed ETL pipelines in Google Dataflow to extract insights from sparse geospatial data.</li>
+          <li>Modelled data in Elasticsearch and Redshift databases to meet real-time querying requirements.</li>
+          <li>Implemented Python Flask back-end microservices using AWS Lambda/API Gateway/Zappa.</li>
+          <li>Maintained an Apache Airflow server for coordinating and scheduling ETL pipeline jobs.</li>
+        </ul>
+
+        <h4>Data Science Engineer <span style="float:right;">May 2017 - Dec 2017</span><br/> Rubikloud Technologies Inc., Toronto</h4>
+        <ul>
+          <li>Worked with data scientists to build a personalized retail product recommendations model.</li>
+          <li>Developed scalable machine learning and data processing pipelines in PySpark on AWS EMR.</li>
+          <li>Productized machine learning models into robust production-grade systems using Luigi.</li>
+          <li>Deployed machine learning solutions on AWS cloud services using Docker containerization.</li>
+          <li>Built automated testing and validation tools for verifying the quality of model predictions.</li>
         </ul>
 
         <h3>Education</h3>
-
-        <h4><strong>MSc in Applied Computing</strong> <span>Sep 2016 – Dec 2017</span></h4>
-        <p>University of Toronto</p>
+        <h4>MSc in Applied Computing <span style="float:right;">Sep 2016 - Dec 2017</span><br/> University of Toronto</h4>
         <ul>
-          <li><strong>Thesis:</strong> Using machine learning to optimize a cloud workflow management system.</li>
-          <li><strong>Awards:</strong> Mitacs Accelerate Fellowship Grant ($15,000).</li>
+          <li>Thesis: Using machine learning to optimize a cloud workflow management system.</li>
+          <li>Awards: Mitacs Accelerate Fellowship Grant ($15,000)</li>
         </ul>
 
-        <h4><strong>BASc Computer Engineering, Honours</strong> <span>Sep 2011 – May 2016</span></h4>
-        <p>University of Toronto</p>
+        <h4>BASc Computer Engineering, Honours <span style="float:right;">Sep 2011 - May 2016</span><br/> University of Toronto</h4>
         <ul>
-          <li><strong>Awards:</strong> Dean’s Honours List, University Entrance Scholarship.</li>
-        </ul>
-
-        <h3>Skills</h3>
-        <ul>
-          <li><strong>Programming:</strong> Python, Java, C/C++, SQL, JavaScript.</li>
-          <li><strong>Big Data:</strong> ElasticSearch, Amazon Redshift, Google BigQuery, DynamoDB.</li>
-          <li><strong>Cloud Computing:</strong> AWS (EC2, S3, Lambda), GCP (Dataflow, BigQuery).</li>
-          <li><strong>Machine Learning:</strong> TensorFlow, PySpark, Scikit-learn, XGBoost.</li>
+          <li>Awards: Dean’s Honours List, University Entrance Scholarship</li>
         </ul>
       </section>
 
